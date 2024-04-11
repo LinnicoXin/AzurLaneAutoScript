@@ -4,5 +4,13 @@ rules:
     upstream: LmeSzinc:master
     mergeMethod: merge
     mergeUnstable: false
+  - base: dev
+    upstream: master
+    assignees:
+      - LinnicoXin
+    reviewers:
+      - LinnicoXin
+    conflictReviewers:
+      - LinnicoXin
 label: ":arrow_heading_down: pull"
 conflictLabel: "merge-conflict"
