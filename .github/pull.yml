@@ -3,7 +3,7 @@ rules:
   - base: master
     upstream: LmeSzinc:master
     mergeMethod: merge
-    mergeUnstable: false
+    mergeUnstable: true
   - base: dev
     upstream: master
     assignees:
