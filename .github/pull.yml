@@ -2,8 +2,8 @@ version: "1"
 rules:
   - base: master
     upstream: LmeSzinc:master
-    mergeMethod: merge
-    mergeUnstable: true
+    mergeMethod: squash
+    mergeUnstable: false
   - base: dev
     upstream: master
     assignees:
